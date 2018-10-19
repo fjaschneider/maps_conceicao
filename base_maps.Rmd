@@ -4,3 +4,22 @@ output: html_notebook
 ---
 
 Baixando os pacotes necessários e os carregando para o projeto
+
+```{r}
+library(RSAGA)
+library(dismo)
+library(raster)
+library(sp)
+library(rgdal)
+library(rasterVis)
+library(maptools)
+library(rgeos)
+```
+
+Como adicionar o shape de uma área
+
+```{r}
+map_Brazil <- gmap("Brazil")
+
+```
+
